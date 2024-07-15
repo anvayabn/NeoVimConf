@@ -37,3 +37,22 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+-- colorscheme
+vim.cmd [[colorscheme moonfly]]
+
+-- moonfly cursor color
+vim.g.nightflyCursorColor = true
+-- vim.g.nightflyTransparent = true
+vim.g.nightflyUnderslineMatchParen = true
+vim.g.nightflyVirtualTextColor = true
+-- vim.g.nightflyWinSeparator = 2
+-- vim.opt.fillchars = {
+--   horiz = "━",
+--   horizup = "┻",
+--   horizdown = "┳",
+--   vert = "┃",
+--   vertleft = "┫",
+--   vertright = "┣",
+--   verthoriz = "╋",
+-- }
